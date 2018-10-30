@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Pull Mobile Records" max_length="40" name="x_276795_mobile_in_pull_mobile_records" type="collection">
+        <element attributes="import_attribute_name=u_carrier,edge_encryption_enabled=true" label="Carrier" max_length="40" name="u_carrier" type="string"/>
+        <element attributes="import_attribute_name=u_customer,edge_encryption_enabled=true" label="Customer" max_length="40" name="u_customer" type="string"/>
+        <element attributes="import_attribute_name=u_imei,edge_encryption_enabled=true" label="Imei" max_length="40" name="u_imei" type="string"/>
+        <element attributes="import_attribute_name=u_network,edge_encryption_enabled=true" label="Network" max_length="40" name="u_network" type="string"/>
+        <element attributes="import_attribute_name=u_serial_number,edge_encryption_enabled=true" label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=u_version,edge_encryption_enabled=true" label="Version" max_length="40" name="u_version" type="string"/>
+    </element>
+</database>

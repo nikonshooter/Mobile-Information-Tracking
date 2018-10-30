@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Mobile Data" max_length="40" name="x_276795_mobile_in_mobile_data" type="collection">
+        <element label="Carrier" max_length="40" name="carrier" type="string"/>
+        <element label="Customer" max_length="40" name="customer" reference="customer_contact" type="reference"/>
+        <element display="true" label="IMEI" max_length="40" name="imei" type="string"/>
+        <element label="Network" max_length="40" name="network" type="string"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element label="Version" max_length="40" name="version" type="string"/>
+    </element>
+</database>

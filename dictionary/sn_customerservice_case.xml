@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="IMEI" max_length="40" name="x_276795_mobile_in_imei" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Network" max_length="40" name="x_276795_mobile_in_network" type="string"/>
+    </element>
+</database>
