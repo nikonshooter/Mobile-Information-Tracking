@@ -1,3 +1,6 @@
+Advanced Store Application Development
+Session ID: CCW0624Session Level:  Intermediate Intermediate
+In a series of workshops and lectures, learn new strategies for developing scoped applications for the store. Learn how to use system properties and custom tables to control the functionality of your application rather than relying on global system artifacts. Use newer platform and application development technologies like Automated Testing Framework, Guided Tours, and Application restricted caller access to add value and functionality to your application.
 # Generated files
 This repository contains generated files and a checksum.
 
