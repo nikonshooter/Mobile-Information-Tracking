@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>contact</field>
+        <global>true</global>
+        <messages/>
+        <name>Populate Device Information</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+    if (isLoading)
+    {
+        return;
+    }
+
+    if (newValue == "" || newValue != oldValue)
+    {
+        g_form.clearValue('x_276795_mobile_in_imei'); //Replace x_snc_mobile with the exact scope name
+        g_form.clearValue('x_276795_mobile_in_network'); //Replace x_snc_mobile with the exact scope name
+    }
+    var ga = new GlideAjax("PopulateDeviceInformation");
+    ga.addParam('sysparm_name', 'getDeviceInformation');
+    ga.addParam('sysparm_contact', newValue);
+    ga.getXML(setDeviceInformation);
+}
+
+function setDeviceInformation(response)
+
+{
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    var dInfo = answer.split("|");
+    for (var j = 0; j < dInfo.length - 1; j++)
+    {
+        g_form.setValue('x_276795_mobile_in_imei', dInfo[0]); //Replace x_snc_mobile with the exact scope name
+        g_form.setValue('x_276795_mobile_in_network', dInfo[1]);//Replace x_snc_mobile with the exact scope name
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-31 15:04:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8a1bf244f212300ab9d22788310c727</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate Device Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mobile Information Tracking" source="x_276795_mobile_in">a42435004fa12300ab9d22788310c723</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mobile Information Tracking">a42435004fa12300ab9d22788310c723</sys_scope>
+        <sys_update_name>sys_script_client_e8a1bf244f212300ab9d22788310c727</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-31 15:07:18</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
