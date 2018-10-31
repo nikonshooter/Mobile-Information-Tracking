@@ -49,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-29 18:32:05</sys_created_on>
-        <sys_id>e74e02044f252300ab9d22788310c758</sys_id>
+        <sys_id>f50504f04f612300ab9d22788310c776</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Version</sys_name>
         <sys_package display_value="Mobile Information Tracking" source="x_276795_mobile_in">a42435004fa12300ab9d22788310c723</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mobile Information Tracking">a42435004fa12300ab9d22788310c723</sys_scope>
         <sys_update_name>sys_dictionary_x_276795_mobile_in_pull_mobile_records_u_version</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-29 18:32:05</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-31 16:27:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

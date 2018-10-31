@@ -5,13 +5,13 @@
             <element>x_276795_mobile_in_imei</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-29 19:01:26</sys_created_on>
-            <sys_id>2d0596084f252300ab9d22788310c7de</sys_id>
+            <sys_created_on>2018-10-31 16:11:31</sys_created_on>
+            <sys_id>5851c4304f612300ab9d22788310c7d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Device Information" display_value="Device Information" name="sn_customerservice_case" sys_domain="global" view="80d085084f212300ab9d22788310c78e">89e456084f252300ab9d22788310c739</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-29 19:01:26</sys_updated_on>
+            <sys_updated_on>2018-10-31 16:11:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,15 +19,29 @@
             <element>x_276795_mobile_in_network</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-29 19:01:26</sys_created_on>
-            <sys_id>e10596084f252300ab9d22788310c7df</sys_id>
+            <sys_created_on>2018-10-31 16:11:31</sys_created_on>
+            <sys_id>d851c4304f612300ab9d22788310c7d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Device Information" display_value="Device Information" name="sn_customerservice_case" sys_domain="global" view="80d085084f212300ab9d22788310c78e">89e456084f252300ab9d22788310c739</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-29 19:01:26</sys_updated_on>
+            <sys_updated_on>2018-10-31 16:11:31</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_276795_mobile_in_imei_information.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-31 16:11:31</sys_created_on>
+            <sys_id>5c51c4304f612300ab9d22788310c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="IMEI Information">9d60c0fc4f212300ab9d22788310c753</sys_ui_formatter>
+            <sys_ui_section caption="Device Information" display_value="Device Information" name="sn_customerservice_case" sys_domain="global" view="80d085084f212300ab9d22788310c78e">89e456084f252300ab9d22788310c739</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-31 16:11:31</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Device Information</caption>
